@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
-VMESS_WSPATH=${VMESS_WSPATH:-'/vmess'}
-VLESS_WSPATH=${VLESS_WSPATH:-'/vless'}
-TROJAN_WSPATH=${TROJAN_WSPATH:-'/trojan'}
-SS_WSPATH=${SS_WSPATH:-'/shadowsocks'}
+UUID=${UUID:-'6a4dc84f-845b-4093-9491-922f6cf21657'}
+VMESS_WSPATH=${VMESS_WSPATH:-'/6a4dc84f-845b-4093-9491-922f6cf21657-vmess'}
+VLESS_WSPATH=${VLESS_WSPATH:-'/6a4dc84f-845b-4093-9491-922f6cf21657-vless'}
+TROJAN_WSPATH=${TROJAN_WSPATH:-'/6a4dc84f-845b-4093-9491-922f6cf21657-trojan'}
+SS_WSPATH=${SS_WSPATH:-'/6a4dc84f-845b-4093-9491-922f6cf21657-shadowsocks'}
 
 generate_config() {
   cat > config.json << EOF
